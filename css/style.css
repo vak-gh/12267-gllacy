@@ -6,7 +6,6 @@ html {
   box-sizing: inherit;
 }
 
-
 body {
   font-family: "Roboto", "Arial", "sans-serif";
   font-size: 16px;
@@ -29,18 +28,11 @@ body {
   min-height: 1650px;
 }
 
-
-
-.logo img {
-  vertical-align: middle;
-}
-
 .clearfix::after {
   content: "";
   display: table;
   clear: both;
 }
-
 
 .container {
   margin: 0 auto;
@@ -49,10 +41,10 @@ body {
 
   min-height: 50px;
 }
+
 .header {
   padding-top: 10px;
 }
-
 
 .logo {
   display: inline-block;
@@ -60,6 +52,9 @@ body {
   margin-left: -5px;
 }
 
+.logo img {
+  vertical-align: middle;
+}
 
 .nav {
   display: inline-block;
@@ -71,7 +66,7 @@ body {
 .search {
   display: inline-block;
   width: 33px;
-  margin-right:10px;
+  margin-right: 10px;
   min-height: 50px;
 }
 
@@ -111,7 +106,6 @@ body {
   margin-bottom: 40px;
 }
 
-
 .promo-left {
   float: left;
   margin-right: 26px;
@@ -126,7 +120,6 @@ body {
   min-height: 229px;
 }
 
-
 .product-item {
   display: inline-block;
   vertical-align: top;
@@ -139,7 +132,6 @@ body {
   margin-right: 26px;
 }
 
-
 .about {
   min-height: 306px;
   padding: 24px 21px;
@@ -147,14 +139,12 @@ body {
 
 }
 
-
 .about-intro {
   display: block;
   font-size: 24px;
   line-height: 30px;
   font-weight: 500;
   margin: 0;
-
 
   min-height: 60px;
 }
@@ -171,7 +161,6 @@ body {
   width: 540px;
   min-height: 200px;
 }
-
 
 .blog-news {
   float: left;
@@ -222,13 +211,6 @@ body {
   width: 192px;
   min-height: 61px;
 }
-
-
-
-
-
-
-
 
 .breadcrumps {
   margin: 0;
@@ -294,7 +276,6 @@ body {
   margin-left: 20px;
   margin-top: 30px;
 }
-
 
 .pagination-block {
   padding-top: 40px;
