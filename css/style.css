@@ -1524,7 +1524,7 @@ position: absolute;
   cursor: pointer;
 }
 
-.filter-fat label:before {
+.filter-fat label:before, .filter-filler label:before {
   display: inline-block;
 
   width: 27px;
