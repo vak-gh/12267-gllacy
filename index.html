@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Глейси</title>
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=cyrillic" rel="stylesheet">
-  <link rel="stylesheet" href="css/normalize.css">
 </head>
 <body class="index">
 
@@ -27,7 +27,6 @@
         <li class="top-menu-item">
           <a href="#" class="top-menu-link">Каталог</a>
           <ul class="submenu">
-
             <li class="submenu-item new">Новинки</li>
             <li class="submenu-item"><a href="catalog.html" class="submenu-link">Сливочное</a></li>
             <li class="submenu-item"><a href="#" class="submenu-link">Щербеты</a></li>
@@ -42,10 +41,29 @@
 
     <div class="search">
       <a href="#" class="search-btn"></a>
+      <form class="search-form">
+        <div class="field">
+          <input type="text" class="search-input" id="search" placeholder="Что ищем?" required>
+          <label for="search" class="field-label">Что ищем?</label>
+        </div>
+      </form>
     </div>
 
     <div class="user-block">
       <a href="#" class="login-btn">Вход</a>
+      <form class="user-block-form">
+        <div class="field">
+          <input type="email" class="user-block-email" id="user-block-email" required placeholder="Электронная почта">
+          <label for="user-block-email" class="field-label">Электронная почта</label>
+        </div>
+        <div class="field">
+          <input type="password" class="user-block-password" id="password" placeholder="Пароль" required>
+          <label for="password" class="field-label">Пароль</label>
+        </div>
+        <button class="user-block-btn btn" type="submit">Войти</button>
+        <a href="#" class="user-block-link">Забыли пароль?</a>
+        <a href="#" class="user-block-link">Новая регистрация</a>
+      </form>
     </div>
 
     <div class="basket">
@@ -207,6 +225,30 @@
     </div>
 
   </footer>
+</div>
+
+<div class="modal-form">
+  <form action="" class="callback-form">
+    <button class="callback-close" type="button"></button>
+    <div class="callback-title">Мы обязательно вам ответим!</div>
+    <div class="field">
+      <input class="callback-input" type="text" placeholder="Как вас зовут?" id="callback-name" required>
+      <label for="callback-name" class="field-label">Как вас зовут?</label>
+    </div>
+    <div class="field">
+      <input class="callback-input" type="email" placeholder="Ваша почта для ответа?" id="callback-email" required>
+      <label for="callback-email" class="field-label">Ваша почта для ответа?</label>
+    </div>
+    <div class="field">
+      <textarea class="callback-input" cols="30" rows="10" type="text" placeholder="Напишите что-нибудь..." id="callback-message" required></textarea>
+      <label for="callback-message" class="field-label">Напишите что-нибудь...</label>
+    </div>
+    <button type="submit" class="callback-btn btn">Отправить</button>
+  </form>
+</div>
+
+<div class="modal-overlay">
+
 </div>
 </body>
 </html>

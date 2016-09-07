@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>HTML Academy: Глейси</title>
-  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body class="catalog">
@@ -34,14 +34,51 @@
 
   <div class="search">
     <a href="#" class="search-btn"></a>
+    <form class="search-form">
+      <div class="field">
+        <input type="text" class="search-input" id="search" placeholder="Что ищем?" required>
+        <label for="search" class="field-label">Что ищем?</label>
+      </div>
+    </form>
   </div>
 
   <div class="user-block">
     <a href="#" class="login-btn">Вход</a>
+    <form class="user-block-form">
+      <div class="field">
+        <input type="email" class="user-block-email" id="user-block-email" required placeholder="Электронная почта">
+        <label for="user-block-email" class="field-label">Электронная почта</label>
+      </div>
+      <div class="field">
+        <input type="password" class="user-block-password" id="password" required>
+        <label for="password" class="field-label">Пароль</label>
+      </div>
+      <button class="user-block-btn btn" type="submit">Войти</button>
+      <a href="#" class="user-block-link">Забыли пароль?</a>
+      <a href="#" class="user-block-link">Новая регистрация</a>
+    </form>
   </div>
 
   <div class="basket">
     <a href="#" class="basket-btn basket-full">2 товара</a>
+    <div class="basket-hidden">
+      <div class="basket-item">
+        <a href="#" class="basket-delete"></a>
+        <img src="img/ice-cream1.jpg" alt="Фото мороженого">
+        <span class="basket-item-name">Пломбир с апельсиновым джемом</span>
+        <span class="basket-count">1,5 кг x <span>200 руб.</span></span>
+        <span class="basket-price">300 руб.</span>
+      </div>
+      <div class="basket-item">
+        <a href="#" class="basket-delete"></a>
+        <img src="img/ice-cream3.jpg" alt="Фото мороженого">
+        <span class="basket-item-name">Клубничный пломбир с присыпкой из белого шоколада</span>
+        <span class="basket-count">1,5 кг x <span>300 руб.</span></span>
+        <span class="basket-price">450 руб.</span>
+
+      </div>
+      <b class="basket-total">Итого: 750 руб.</b>
+      <a href="#" class="basket-order btn">Оформить заказ</a></div>
   </div>
 
   <div class="header-info"><span class="working-hours">С 10 до 20, ежедневно</span><span class="phone-num">8 812 450-25-25</span>
@@ -244,6 +281,8 @@
   </div>
 
 </footer>
+
+
 
 
 </body>
