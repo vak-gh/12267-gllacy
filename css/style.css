@@ -289,6 +289,10 @@ input:focus + .field-label, textarea:focus + .field-label {
   vertical-align: top;
 }
 
+.user-block input {
+  width: 239px;
+}
+
 input, textarea {
   margin-bottom: 20px;
   padding: 11px 15px;
