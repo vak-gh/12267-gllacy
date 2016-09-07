@@ -10,7 +10,7 @@ link.addEventListener("click",
   function(event) {
     event.preventDefault();
     popup.classList.add("modal-content-show");
-    overlay.classList.add("modal-content-show");
+    overlay.classList.add("modal-overlay-show");
     if (storage) {
       nameField.value = storage;
       email.focus();
@@ -25,7 +25,7 @@ close.addEventListener("click",
   function (event) {
     event.preventDefault();
     popup.classList.remove("modal-content-show");
-    overlay.classList.remove("modal-content-show");
+    overlay.classList.remove("modal-overlay-show");
     popup.classList.remove("modal-error");
     localStorage.setItem("name", nameField.value);
 

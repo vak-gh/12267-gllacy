@@ -1856,8 +1856,11 @@ input[type=checkbox]:checked + label:hover:before {
 
 .modal-content-show {
   display: block;
-
   animation: bounce 0.6s;
+}
+
+.modal-overlay-show {
+  display: block;
 }
 
 .modal-error {
