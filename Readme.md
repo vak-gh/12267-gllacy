@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Victor Kazakov](https://up.htmlacademy.ru/htmlcss/14/user/12267).
-* Наставник: [Артур Стамбульцян](https://htmlacademy.ru/profile/id234977).
+* Наставник: [Мурат Баркинхоев](https://htmlacademy.ru/profile/id186857).
 
 ---
 
