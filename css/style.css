@@ -1719,21 +1719,22 @@ input[type=checkbox]:checked + label:hover:before {
   line-height: 18px;
 }
 
-.pagination-link.pagination-prev, .pagination-link.pagination-next {
+.pagination-prev, .pagination-next {
   display: inline-block;
 
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
 
   vertical-align: top;
+  margin: 0;
 }
 
 .pagination-prev {
-  background: url(../img/logo/prev-logo.svg) no-repeat 0 0;
+  background: url(../img/logo/prev-logo.svg) no-repeat 0 5px;
 }
 
 .pagination-next {
-  background: url(../img/logo/next-logo.svg) no-repeat 10px 0;
+  background: url(../img/logo/next-logo.svg) no-repeat 10px 5px;
 }
 
 .pagination-active {
