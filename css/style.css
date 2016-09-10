@@ -790,16 +790,21 @@ position: absolute;
   padding: 15px 20px;
 
   border-radius: 18px;
+  overflow: hidden;
 }
 
 .promo-left {
   margin-right: 26px;
+
+  height: 229px;
 
   background: #911c3d url(../img/background/promo-left.jpg) no-repeat;
 }
 
 .promo-right {
   background: #49291f url(../img/background/promo-right.jpg) no-repeat 0 0;
+
+  height: 229px;
 }
 
 .promo-title {
@@ -964,9 +969,10 @@ position: absolute;
 }
 
 .about {
-  min-height: 306px;
   margin-bottom: 40px;
   padding: 24px 21px;
+
+  height: 306px;
 
   color: #323232;
   border-radius: 18px;
@@ -974,6 +980,7 @@ position: absolute;
 
   font-size: 16px;
   font-weight: 400;
+  overflow: hidden;
 }
 
 .about-intro {
@@ -1044,12 +1051,15 @@ position: absolute;
   float: left;
 
   width: 560px;
-  min-height: 220px;
+  height: 220px;
   margin-right: 26px;
   padding: 21px;
 
   border-radius: 16px;
   background: #fff url(../img/background/background-blog.jpg);
+
+  overflow: hidden;
+
 
 }
 
@@ -1080,7 +1090,7 @@ position: absolute;
   float: left;
 
   width: 560px;
-  min-height: 220px;
+  height: 220px;
   padding: 5px;
 
   border-radius: 18px;
@@ -1092,6 +1102,9 @@ position: absolute;
 
   border-radius: 18px;
   background: #f8f7f4;
+
+  overflow: hidden;
+
 }
 
 .subscribe-text {
