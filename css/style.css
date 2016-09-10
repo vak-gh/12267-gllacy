@@ -869,6 +869,8 @@ position: absolute;
 
 .product-item img {
   border-radius: 50%;
+  width: 267px;
+  height: 267px;
 }
 
 .product-price {
