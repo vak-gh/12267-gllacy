@@ -970,7 +970,7 @@ position: absolute;
 
   color: #323232;
   border-radius: 18px;
-  background: url(../img/background/background-about.jpg);
+  background: #ede3c8 url(../img/background/background-about.jpg);
 
   font-size: 16px;
   font-weight: 400;
@@ -1049,7 +1049,7 @@ position: absolute;
   padding: 21px;
 
   border-radius: 16px;
-  background: url(../img/background/background-blog.jpg);
+  background: #fff url(../img/background/background-blog.jpg);
 
 }
 
