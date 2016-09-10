@@ -1369,11 +1369,11 @@ position: absolute;
   line-height: 16px;
 }
 
-.breadcrumbs a:hover {
+.breadcrumbs a:not(.active):hover {
   color: #ffbc9e;
 }
 
-.breadcrumbs a:not(.active):after {
+.breadcrumbs li:not(:last-of-type):after {
   display: inline-block;
 
   padding: 0 6px;
