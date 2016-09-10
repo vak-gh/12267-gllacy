@@ -1462,7 +1462,7 @@ position: absolute;
 .filter-sort .filter-wrapper:after {
   position: absolute;
   z-index: 10;
-  top: 4px;
+  top: 6px;
   right: 15px;
 
   font-size: 14px;
