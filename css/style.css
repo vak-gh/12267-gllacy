@@ -508,7 +508,7 @@ textarea:-ms-input-placeholder {
   z-index: 10;
   right: 0;
 
-  display: none;
+  display: block;
 
   padding: 20px 15px;
 
@@ -581,6 +581,7 @@ textarea:-ms-input-placeholder {
 
 .basket-item-name {
   display: inline-block;
+  vertical-align: middle;
 
   width: 225px;
   margin-right: 25px;
