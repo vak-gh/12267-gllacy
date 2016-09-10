@@ -1255,7 +1255,12 @@ position: absolute;
 }
 
 .menu-list {
+  list-style: none;
   padding: 0;
+}
+
+.menu-list ul {
+  list-style: none;
 }
 
 .menu-list > li {
