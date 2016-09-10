@@ -179,9 +179,20 @@ body {
   padding-bottom: 10px;
   padding-left: 25px;
 
-  border-bottom: 1px solid #d1d0ce;
-
   font-weight: 700;
+
+}
+
+.submenu-item hr {
+  width: 124px;
+  height: 1px;
+  margin: 0 auto;
+  padding: 0;
+
+  border: none;
+  outline: none;
+  background-color: #d1d0ce;
+
 
 }
 
@@ -791,7 +802,7 @@ position: absolute;
 
 .promo {
   float: left;
-  overflow: hidden;
+  overflow: auto;
 
   width: 560px;
   min-height: 229px;
@@ -801,16 +812,16 @@ position: absolute;
 }
 
 .promo-left {
-  height: 229px;
+  min-height: 229px;
   margin-right: 26px;
 
-  background: #911c3d url(../img/background/promo-left.jpg) no-repeat;
+  background: #911c3d url(../img/background/promo-left.jpg) repeat;
 }
 
 .promo-right {
-  height: 229px;
+  min-height: 229px;
 
-  background: #49291f url(../img/background/promo-right.jpg) no-repeat 0 0;
+  background: #49291f url(../img/background/promo-right.jpg) repeat;
 }
 
 .promo-title {
@@ -948,7 +959,7 @@ position: absolute;
   display: block;
 
   margin-top: 10px;
-  padding: 14px 18px;
+  padding: 12px 18px;
 
   outline: none;
 
@@ -960,10 +971,10 @@ position: absolute;
 .product-item:hover::after {
   position: absolute;
   z-index: 5;
-  top: -5px;
-  right: -5px;
+  top: -10px;
+  right: -14px;
   bottom: -80px;
-  left: -5px;
+  left: -14px;
 
   content: "";
 
@@ -980,15 +991,15 @@ position: absolute;
 }
 
 .about {
-  overflow: hidden;
+  overflow: auto;
 
-  height: 306px;
+  min-height: 306px;
   margin-bottom: 40px;
   padding: 24px 21px;
 
   color: #323232;
   border-radius: 18px;
-  background: #ede3c8 url(../img/background/background-about.jpg);
+  background: #ede3c8 url(../img/background/background-about.jpg) repeat;
 
   font-size: 16px;
   font-weight: 400;
@@ -1060,15 +1071,15 @@ position: absolute;
 
 .blog-news {
   float: left;
-  overflow: hidden;
+  overflow: auto;
 
   width: 560px;
-  height: 220px;
+  min-height: 220px;
   margin-right: 26px;
   padding: 21px;
 
   border-radius: 16px;
-  background: #fff url(../img/background/background-blog.jpg);
+  background: #fff url(../img/background/background-blog.jpg) repeat;
 
 
 }
@@ -1098,18 +1109,17 @@ position: absolute;
 
 .subscribe-block {
   float: left;
+  overflow: auto;
 
   width: 560px;
-  height: 220px;
+  min-height: 220px;
   padding: 5px;
 
   border-radius: 18px;
-  background: #f8f7f4 url(../img/email-pattern.png);
+  background: #f8f7f4 url(../img/email-pattern.png) repeat;
 }
 
 .subscribe {
-  overflow: hidden;
-
   padding: 29px 20px 15px;
 
   border-radius: 18px;
@@ -1559,6 +1569,11 @@ position: absolute;
   box-shadow: 0 2px 1px 0 rgba(0, 1, 1, .2);
 }
 
+.price-range-toggle:hover {
+  width: 21px;
+  height: 21px;
+}
+
 .price-range-toggle-min {
   left: 38px;
 }
@@ -1759,6 +1774,12 @@ input[type=checkbox]:checked + label:hover:before {
   line-height: 18px;
 }
 
+.pagination-link:active {
+  color: #323232;
+  border-radius: 50%;
+  background: #fff;
+}
+
 .pagination-prev, .pagination-next {
   display: inline-block;
 
@@ -1783,7 +1804,7 @@ input[type=checkbox]:checked + label:hover:before {
   background: #fff;
 }
 
-.pagination-link:hover {
+.pagination-link:not(.pagination-active):hover {
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.2);
 }
