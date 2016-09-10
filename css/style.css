@@ -1451,6 +1451,10 @@ position: absolute;
   -webkit-appearance: none;
 }
 
+.filter-sort select::-ms-expand {
+  display: none;
+}
+
 .filter-sort .filter-wrapper {
   position: relative;
 }
